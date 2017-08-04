@@ -5,10 +5,15 @@
   "main": "dist/index.js",
   "scripts": {
     "clean-dist": "rm -rf ./dist",
-    "build": "yarn run clean-dist && NODE_ENV=production `yarn bin`/babel ./src --out-dir ./dist"
+    "build": "yarn run clean-dist && NODE_ENV=production `yarn bin`/babel ./src --out-dir ./dist",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [
-    "react", "component", "library", "example"
+    "react",
+    "component",
+    "library",
+    "example"
   ],
   "author": "Ernesto Freyre <ernestofreyreg@gmail.com>",
   "license": "MIT",
@@ -20,7 +25,8 @@
     "babel-preset-stage-1": "^6.24.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "styled-jsx": "^1.0.10"
+    "styled-jsx": "^1.0.10",
+    "@storybook/react": "^3.2.3"
   },
   "peerDependencies": {
     "react": "^15.x",
