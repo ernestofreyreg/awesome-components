@@ -1,15 +1,17 @@
 {
   "name": "awesome-components",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Awesome components is a example of a React component library",
   "main": "dist/index.js",
   "scripts": {
     "clean-dist": "rm -rf ./dist",
     "build": "yarn run clean-dist && NODE_ENV=production `yarn bin`/babel ./src --out-dir ./dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react", "component", "library", "example"
+  ],
+  "author": "Ernesto Freyre <ernestofreyreg@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
