@@ -1,7 +1,19 @@
 import React from 'react'
 
+const isUrgent = title => {
+  if (title[0] === '!') {
+    return true
+  }
+
+  if (title[title.length - 1] === '!') {
+    return true
+  }
+
+  return false
+}
+
 const Button = ({title, onClick}) => (
-  <button className='Button' onClick={onClick}>
+  <button className={`Button ${isUrgent(title) && 'urgent'}`}  onClick={onClick}>
     {title}
 
     {/*language=CSS*/}
@@ -13,6 +25,10 @@ const Button = ({title, onClick}) => (
         font-size: 14px;
         border: none;
         border-radius: 4px;
+      }
+
+      .Button.urgent {
+        background-color: red;
       }
     `}</style>
   </button>

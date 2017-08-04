@@ -1,2 +1,5 @@
 src/
 .babelrc
+.storybook/
+__test__/
+stories/
