@@ -1,6 +1,6 @@
 {
   "name": "awesome-components",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Awesome components is a example of a React component library",
   "main": "dist/index.js",
   "scripts": {
