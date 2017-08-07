@@ -1,6 +1,6 @@
 {
   "name": "awesome-components",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Awesome react components library",
   "main": "dist/index.js",
   "scripts": {
