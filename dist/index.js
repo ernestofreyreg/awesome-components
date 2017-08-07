@@ -3,39 +3,22 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Button = undefined;
+exports.Button = exports.PageFrame = exports.ScreenFrame = undefined;
 
-var _react = require('react');
+var _ScreenFrame = require('./layouts/ScreenFrame');
 
-var _react2 = _interopRequireDefault(_react);
+var _ScreenFrame2 = _interopRequireDefault(_ScreenFrame);
+
+var _PageFrame = require('./layouts/PageFrame');
+
+var _PageFrame2 = _interopRequireDefault(_PageFrame);
+
+var _Button = require('./buttons/Button');
+
+var _Button2 = _interopRequireDefault(_Button);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var isUrgent = function isUrgent(title) {
-  if (title[0] === '!') {
-    return true;
-  }
-
-  if (title[title.length - 1] === '!') {
-    return true;
-  }
-
-  return false;
-};
-
-var Button = function Button(_ref) {
-  var title = _ref.title,
-      onClick = _ref.onClick;
-  return _react2.default.createElement(
-    'button',
-    { className: 'Button ' + (isUrgent(title) && 'urgent'), onClick: onClick },
-    title,
-    _react2.default.createElement(
-      'style',
-      { jsx: true },
-      '\n      .Button {\n        background-color: #007dff;\n        color: white;\n        padding: 4px 10px;\n        font-size: 14px;\n        border: none;\n        border-radius: 4px;\n      }\n\n      .Button.urgent {\n        background-color: red;\n      }\n    '
-    )
-  );
-};
-
-exports.Button = Button;
+exports.ScreenFrame = _ScreenFrame2.default;
+exports.PageFrame = _PageFrame2.default;
+exports.Button = _Button2.default;
