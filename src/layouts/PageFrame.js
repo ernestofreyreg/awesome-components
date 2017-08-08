@@ -11,6 +11,7 @@ const PageFrame = ({children}) => (
         flex-grow: 1;
         flex-direction: column;
         width: 1024px;
+        align-items: flex-start;
       }
 
       @media screen and (max-width:480px) {

@@ -25,6 +25,8 @@ const Button = ({title, onClick}) => (
         font-size: 14px;
         border: none;
         border-radius: 4px;
+        outline: none;
+        cursor: pointer;
       }
       .Button.urgent {
         background-color: red;

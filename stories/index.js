@@ -16,3 +16,11 @@ storiesOf('Layout', module)
 
 storiesOf('Layout', module)
   .add('PageFrame', () => <ScreenFrame><PageFrame>PageFrame</PageFrame></ScreenFrame>)
+  .add('with Buttons', () => <ScreenFrame>
+    <PageFrame>
+      <Button title="Hello Component" onClick={action('clicked hello components')} />
+      <br />
+      <br />
+      <Button title="Hello Component!" onClick={action('clicked hello components!')} />
+    </PageFrame>
+  </ScreenFrame>)

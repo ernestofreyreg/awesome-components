@@ -3,7 +3,7 @@
 exports[`Storyshots Button simple text 1`] = `
 <button
   className="Button false"
-  data-jsx={2754396381}
+  data-jsx={2876876518}
   onClick={[Function]}
 >
   Hello Button
@@ -13,7 +13,7 @@ exports[`Storyshots Button simple text 1`] = `
 exports[`Storyshots Button urgent text prefix 1`] = `
 <button
   className="Button urgent"
-  data-jsx={2754396381}
+  data-jsx={2876876518}
   onClick={[Function]}
 >
   !Cancel
@@ -23,7 +23,7 @@ exports[`Storyshots Button urgent text prefix 1`] = `
 exports[`Storyshots Button urgent text sufix 1`] = `
 <button
   className="Button urgent"
-  data-jsx={2754396381}
+  data-jsx={2876876518}
   onClick={[Function]}
 >
   Cancel!
@@ -33,7 +33,7 @@ exports[`Storyshots Button urgent text sufix 1`] = `
 exports[`Storyshots Button with some emoji 1`] = `
 <button
   className="Button false"
-  data-jsx={2754396381}
+  data-jsx={2876876518}
   onClick={[Function]}
 >
   😀 😎 👍 💯
@@ -47,7 +47,7 @@ exports[`Storyshots Layout PageFrame 1`] = `
 >
   <div
     className="PageFrame"
-    data-jsx={682371869}
+    data-jsx={988627274}
   >
     PageFrame
   </div>
@@ -60,5 +60,34 @@ exports[`Storyshots Layout ScreenFrame 1`] = `
   data-jsx={1508683191}
 >
   ScreenFrame
+</div>
+`;
+
+exports[`Storyshots Layout with Buttons 1`] = `
+<div
+  className="ScreenFrame"
+  data-jsx={1508683191}
+>
+  <div
+    className="PageFrame"
+    data-jsx={988627274}
+  >
+    <button
+      className="Button false"
+      data-jsx={2876876518}
+      onClick={[Function]}
+    >
+      Hello Component
+    </button>
+    <br />
+    <br />
+    <button
+      className="Button urgent"
+      data-jsx={2876876518}
+      onClick={[Function]}
+    >
+      Hello Component!
+    </button>
+  </div>
 </div>
 `;
