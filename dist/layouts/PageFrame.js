@@ -19,7 +19,7 @@ var PageFrame = function PageFrame(_ref) {
     _react2.default.createElement(
       'style',
       { jsx: true },
-      '\n      .PageFrame {\n        display: inline-flex;\n        flex-grow: 1;\n        flex-direction: column;\n        width: 1024px;\n      }\n\n      @media screen and (max-width:480px) {\n        .PageFrame {\n          width: 100%;\n        }\n      }\n\n      @media screen and (max-width: 1024px) {\n        .PageFrame {\n          width: 100%;\n        }\n      }\n    '
+      '\n      .PageFrame {\n        display: inline-flex;\n        flex-grow: 1;\n        flex-direction: column;\n        width: 1024px;\n        align-items: flex-start;\n      }\n\n      @media screen and (max-width:480px) {\n        .PageFrame {\n          width: 100%;\n        }\n      }\n\n      @media screen and (max-width: 1024px) {\n        .PageFrame {\n          width: 100%;\n        }\n      }\n    '
     )
   );
 };

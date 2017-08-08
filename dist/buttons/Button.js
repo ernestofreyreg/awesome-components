@@ -32,7 +32,7 @@ var Button = function Button(_ref) {
     _react2.default.createElement(
       'style',
       { jsx: true },
-      '\n      .Button {\n        background-color: #007dff;\n        color: white;\n        padding: 4px 10px;\n        font-size: 14px;\n        border: none;\n        border-radius: 4px;\n      }\n      .Button.urgent {\n        background-color: red;\n      }\n    '
+      '\n      .Button {\n        background-color: #007dff;\n        color: white;\n        padding: 4px 10px;\n        font-size: 14px;\n        border: none;\n        border-radius: 4px;\n        outline: none;\n        cursor: pointer;\n      }\n      .Button.urgent {\n        background-color: red;\n      }\n    '
     )
   );
 };
