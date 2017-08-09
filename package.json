@@ -3,6 +3,7 @@
   "version": "0.5.0",
   "description": "Awesome react components library",
   "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
   "scripts": {
     "test": "jest --coverage",
     "clean-dist": "rm -rf ./dist",
@@ -19,6 +20,9 @@
   "author": "Ernesto Freyre <ernestofreyreg@gmail.com>",
   "license": "MIT",
   "repository": "git@github.com:ernestofreyreg/awesome-components.git",
+  "dependencies": {
+    "styled-jsx": "^1.0.10"
+  },
   "devDependencies": {
     "@storybook/addon-storyshots": "^3.2.3",
     "@storybook/react": "^3.2.3",
@@ -30,8 +34,7 @@
     "jest": "^20.0.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-test-renderer": "^15.6.1",
-    "styled-jsx": "^1.0.10"
+    "react-test-renderer": "^15.6.1"
   },
   "peerDependencies": {
     "react": "^15.x",
