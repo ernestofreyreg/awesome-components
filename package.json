@@ -1,6 +1,6 @@
 {
   "name": "awesome-components",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Awesome react components library",
   "main": "dist/index.js",
   "jsnext:main": "src/index.js",
